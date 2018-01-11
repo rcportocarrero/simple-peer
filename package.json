@@ -62,7 +62,7 @@
     "test-node": "npm run test-node-electron-webrtc && npm run test-node-wrtc",
     "test-node-electron-webrtc": "WRTC=electron-webrtc tape test/*.js",
     "test-node-wrtc": "WRTC=wrtc tape test/*.js",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "testling": {
     "files": "test/*.js"
